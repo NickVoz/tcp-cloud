@@ -6,10 +6,10 @@ Python scripts for a cloud server and clients, with support of multiple connecti
 
 **1. Prerequisites:**
   - The `watchdog` library, which can be installed using `pip install watchdog`
-  - IP address and desired listening port for the server machine using `ip a` or `ifconfig`, or `ipconfig on windows.
+  - IP address and desired listening port for the server machine using `ip a` or `ifconfig` on Linux, or `ipconfig` on Windows.
 
 **2. Executing the program:**
-  - First, run 'python server.py port` to initialize the server.
+  - First, run `python server.py port` to initialize the server.
     - `port` being the port number.
     - **Example:** `python server.py 12345` will make the server listen to port 12345.
   - Now, every client can be initialized using `python client.py ipaddr, port, filepath, interval, UID`.
