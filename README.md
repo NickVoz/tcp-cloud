@@ -1,6 +1,6 @@
 # tcp-cloud
 
-Python scripts for a cloud server and clients, with support of multiple connections for a single client and file sync.
+Python scripts for a cloud server and clients, supports multiple connections for a single client and serving multiple clients simultaneously.
 
 ### Running the program
 
