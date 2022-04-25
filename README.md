@@ -12,7 +12,7 @@ Python scripts for a cloud server and clients, supports multiple connections for
   - First, run `python server.py port` to initialize the server.
     - `port` being the port number.
     - **Example:** `python server.py 12345` will make the server listen to port 12345.
-  - Now, every client can be initialized using `python client.py ipaddr, port, filepath, interval, UID`.
+  - Now, every client can be initialized using `python client.py ipaddr port filepath interval UID`.
     - `ipaddr` is the server's address.
     - `port` is the server's listening port.
     - `filepath` is the path to the desired file.
